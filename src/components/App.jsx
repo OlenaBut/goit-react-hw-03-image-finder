@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { fetchImages } from './fetchImages';
-import { SearchBar } from './SearchBar/SearchBar';
+import { SearchBar } from 'components/SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { LoadMore } from './Button/Button';
-import { Loader } from './Loader/Loader';
-import { ToastContainer, toast } from 'react-toastify';
+import { Loader } from 'components/Loader/Loader';
+import { ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 export class App extends Component {
